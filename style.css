@@ -178,3 +178,53 @@ li{
     width: 204px;
     height: 71px;
  }
+ /* Contuct sec related style */
+ .contuct-sec{
+    text-align: center;
+    color: white;
+    background: #E5C643;
+    padding-bottom: 150px;
+ }
+ .contuct-sec h1{
+    font-size: 55px;
+    padding-top: 140px;
+ }
+ .contuct-sec p{
+    font-size: 32px;
+    font-weight: 400;
+ }
+ .mail-area{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 574px;
+    height: 87px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0px auto;
+ }
+ .mail-area p{
+    width: 269px;
+    height: 25px;
+    font-size: 24px;
+    color: #7C7C7C;
+    margin: 27px 27px 35px;
+ }
+ .mail-area input{
+    padding: 27px;
+    color: #767676;
+    font-size: 24px;
+    font-weight: 400;
+    border: none;
+ }
+ .mail-area button{
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px;
+    width: 161px;
+    height: 67px;
+    border: none;
+    background: #000;
+ }
