@@ -158,3 +158,23 @@ li{
     justify-content: space-between;
     align-items: center;
  }
+ /* App download related style */
+ .app-dounload-sec{
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    align-items: center;
+ }
+ .common-header h1{
+    font-size: 48px;
+    margin-bottom: 48px;
+ }
+ .img-logo{
+    display: flex;
+    margin-top: 65px;
+    gap: 20px;
+ }
+ .img-logo img{
+    width: 204px;
+    height: 71px;
+ }
