@@ -3,7 +3,6 @@ body{
     margin: 0px;
 }
 /* nav related style */
-
 nav{
     display: flex;
     justify-content: space-evenly;
@@ -81,4 +80,36 @@ li{
     justify-content: space-around;
     background: #EBD96B;
     padding: 60px 170px 55px;
+ }
+ /* New arrivals related style */
+ .new-arrivals{
+    display: flex;
+    justify-content: space-between;
+    margin: 115px 178px 190px 104px;
+ }
+ .description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ h2{
+    font-size: 32px;
+    font-weight:500;
+ }
+ h4{
+    font-size: 24px;
+    font-weight: 500;
+ }
+ .hoodies img{
+    width: 484px;
+    height: 704px;
+ }
+ .coats img{
+    width: 484px;
+    height: 704px;
+
+ }
+ .t-shirt img{
+    width: 490px;
+    height: 704px;
  }
