@@ -5,7 +5,7 @@ body{
 /* nav related style */
 nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 .logo{
@@ -35,31 +35,29 @@ li{
     font-size: 24px;
     font-weight: 500;
 }
-.primary-color{
+.primary-decor{
     background: #000;
     color:white ;
+    border: none;
 }
 /* Bannar related style */
 .bannar{
-    height: 93vh;
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
-    gap: 175px;
+    justify-content: space-between;
     align-items: center;
     border-radius: 60px;
     background: #F4F6F5;
     margin: 56px 100px 63px ;
     padding-left: 119px;
 }
-.unique-bg{
+.yellow-bg{
     background-image: url('images/yellow-bg.png');
+    background-size: cover;
 }
-.lets-bg{
+.white-bg{
     background-image: url('images/white-bg.png');
-}
-.bannar img{
-   width: 50%;
-   margin-top: 120px;
+    background-size: cover;
 }
 .bannar p{
     font-size: 32px;
@@ -70,6 +68,7 @@ li{
 .bannar button{
     border-radius: 10px;
     margin-left: 34px;
+    margin-bottom: 90px;
     font-size: 30px;
     width: 220px;
     height: 82px;
@@ -87,11 +86,6 @@ li{
     justify-content: space-between;
     margin: 115px 178px 190px 104px;
  }
- .description{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- }
  h2{
     font-size: 32px;
     font-weight:500;
@@ -99,6 +93,7 @@ li{
  h4{
     font-size: 24px;
     font-weight: 500;
+    color: #7F7F7F;
  }
  .hoodies img{
     width: 484px;
@@ -107,29 +102,33 @@ li{
  .coats img{
     width: 484px;
     height: 704px;
-
  }
  .t-shirt img{
     width: 490px;
     height: 704px;
  }
+ .new-arrival-des{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
  /* Offer sec related style */
  .offer-sec{
-    height: 968px;
     display: flex;
     background: linear-gradient(360deg, #E0C340 0%, #DFC23E 3.93%, #E1C441 7.23%, #E3C743 10.23%, #E4C542 13.14%, #E6C744 16.22%, #E7C845 19.84%, #E5C643 24.38%, #E6C945 31.00%, #E3C743 37.19%, #E9CA48 43.33%, #EDCE49 50.36%, #F0D44C 56.57%, #F4D84F 62.71%, #F6DA52 67.12%, #F7DB53 73.77%, #F9DD55 79.08%, #F9DF56 85.64%, #FAE157 93.50%, #F9DF56 100%);
     justify-content: space-between;
     align-items: center;
  }
  .offer-info{
-    padding: 120px 800px 155px 0px;
+    width: 933px;
+    height: 968px;
  }
  .offer-sec img{
-    width: 1000px;
+    width: 992px;
     height: 968px;
  }
  .offer-info h1{
-    font-size: 112px;
+    font-size: 111px;
  }
  .offer-info p{
     font-size: 36px;
@@ -137,6 +136,7 @@ li{
  .offer-sec button{
     font-size: 28px;
     font-weight: 600;
+    margin-bottom: 155px;
     width: 265px;
     height: 95px;
     border-radius: 8px;
