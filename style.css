@@ -86,11 +86,11 @@ li{
     justify-content: space-between;
     margin: 115px 178px 190px 104px;
  }
- h2{
+ .common-header h2{
     font-size: 32px;
     font-weight:500;
  }
- h4{
+.common-header h4{
     font-size: 24px;
     font-weight: 500;
     color: #7F7F7F;
@@ -140,4 +140,21 @@ li{
     width: 265px;
     height: 95px;
     border-radius: 8px;
+ }
+/* Favourite sec related style */
+ .favourite-sec{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+ }
+ .favourite-sec img{
+    width: 800px;
+    height: 575px;
+ }
+ .favo-des{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
  }
